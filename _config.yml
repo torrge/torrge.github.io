@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://torrge.github.io
+title: Torrge's Weblog
+subtitle: Here comes the one name written in water.
+author: Torrge
 simple_search: http://google.com/search
 description:
 
@@ -86,11 +86,11 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user:
+delicious_user: torrge
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: zjuntor
 disqus_show_comment_count: false
 
 # Google Analytics
