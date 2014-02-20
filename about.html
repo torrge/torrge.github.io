@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Setup Python Web - Life Stream of torrge</title>
+  <title>About - Life Stream of torrge</title>
   <meta name="author" content="Torrge">
 
   
-  <meta name="description" content="This weekend, I tried to setup Python Web environment. At beginning, I tried Apache http server &amp; mod_python, but shamefully failed.  Then, I &hellip;">
+  <meta name="description" content="About Feb 20th, 2014 torrge Amateur Programmer using Python/C/Java Survey &amp; Mapping Engineer       Xi&#8217;an China Biography Jul 2009-Now &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.torrge.info/2012/07/setup-python-web/">
+  <link rel="canonical" href="http://blog.torrge.info/about.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,15 +68,11 @@
     <div id="main">
       <div id="content">
         <div>
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      <h1 class="entry-title">Setup Python Web</h1>
-    
-    
-      <p class="meta">
-        
+    <h1 class="entry-title">About</h1>
+    <p class="meta">
 
 
 
@@ -88,125 +84,70 @@
   
 
 
-<time datetime="2012-07-13T00:00:00+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="#disqus_thread">Comments</a>
-        
-      </p>
-    
+<time datetime="2014-02-20T16:45:00+08:00" pubdate data-updated="true">Feb 20<span>th</span>, 2014</time></p>
   </header>
+  
+  <h1>torrge</h1>
 
+<blockquote><h4>Amateur Programmer using Python/C/Java</h4>
 
-<div class="entry-content"><p>This weekend, I tried to setup Python Web environment. At beginning, I tried Apache http server &amp; mod_python, but shamefully failed.  Then, I turned to Nginx &amp; uwsgi.</p>
+<h4>Survey &amp; Mapping Engineer       Xi&#8217;an China</h4>
 
-<p>Nginx, as its official claimed, is a high performance http server &amp; reverse proxy. As a reverse proxy, in my perception, it just responses the request and then distributes it to the according server which is the one really processing the request.  In the Nginx &amp; uwsgi couple, the real server to process request is uwsgi, which implements its own uwsgi protocol &amp; wsgi protocal.</p>
+<h3>Biography</h3>
 
-<p>Using this architecture, there several advantages, for example, we can use Nginx as a load balancer, in spite of that I don&#8217;t really understand this detailly.</p>
+<h4>Jul 2009-Now</h4>
 
-<p>install nginx:</p>
+<p>Survey &amp; Mapping Engineer       Xi&#8217;an China</p>
 
-<pre class="brush:shell">#in extracted folder, may need su privilege
-./configure --prefix=where/to/install/ngnix
-make & make install</pre>
+<h4>Sep 2005- Jul 2009</h4>
 
+<p>Studing Geographic Information System in department of Geographic Information Science Nanjing University       Nanjing China</p>
 
-<p>install uwsgi:</p>
+<h3>Education</h3>
 
-<pre class="brush:shell">#using virtualenv
-source path/to/yourvirtualenv/bin/activate
-easy_install uwsgi</pre>
+<p>Nanjing University        Bachelor in Geographic Information Science</p>
 
+<h3>Contact</h3>
 
-<p>configure nginx:</p>
+<p>Gtalk/Gmail      zjuntor[at]gmail.com</p>
 
-<pre class="brush:plain">#in nginxhome/conf/nginx.conf
-server{
-        listen 8081;
-        server_name localhost;
-        location /{
-            include uwsgi_params;
-            uwsgi_pass localhost:3031;
-            root  path/to/demo/;        
-        }   
-    }</pre>
+<p>Twitter      <a href="http://twitter.com/Torrge" target="_blank">torrge</a></p>
 
+<p>Github       <a href="http://github.com/torrge/" target="_blank">github</a></p></blockquote>
 
-<p>write wsgi script(in folder path/to/demo/):</p>
-
-<pre class="brush:applescript">from bottle import route, run, default_app  
-@route('/demo')  
-def index():  
-    return "it works."
-if __name__ == '__main__':
-    run(host='localhost', port=3032)
-else:
-    application = default_app()</pre>
-
-
-<p>now, start nginx &amp; uwsgi:</p>
-
-<pre class="brush:shell">nginxhome/sbin/nginx
-#in virtualenv
-uwsgi --socket localhost:3031 -H virtualenvname --wsgi-file path/to/demo.py</pre>
-
-
-<p>something to be marked:</p>
-
-<p>1, during install, using ldd to make out the dependencies;</p>
-
-<p>2, there more details to configure of nginx &amp; uwsgi if needed.</p>
-
-<p>3, in many examples, to start uwsgi, &#8216;&#8211;http&#8217; option is used, but that may failed except using &#8216;&#8211;socket&#8217; instead.</p>
-</div>
-
-
-  <footer>
-    <p class="meta">
-      
+  
+    <footer>
+      <p class="meta">
+        
   
 
 <span class="byline author vcard">Posted by <span class="fn">torrge</span></span>
 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-20T16:45:00+08:00" pubdate data-updated="true">Feb 20<span>th</span>, 2014</time>
+        
+      </p>
       
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-13T00:00:00+08:00" pubdate data-updated="true"></time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/programming/'>Programming</a>
-  
-</span>
-
-
-    </p>
-    
-      <div class="sharing">
+        <div class="sharing">
   
   
   
 </div>
 
-    
-    <p class="meta">
       
-        <a class="basic-alignment left" href="/2012/07/%e7%9c%bc%e6%9c%9b%e7%9d%80%e5%8c%97%e6%96%b9/" title="Previous Post: 眼望着北方">&laquo; 眼望着北方</a>
-      
-      
-        <a class="basic-alignment right" href="/2012/08/something-about-learning-javascript/" title="Next Post: Something About Learning JavaScript">Something About Learning JavaScript &raquo;</a>
-      
-    </p>
-  </footer>
+    </footer>
+  
 </article>
 
 </div>
@@ -293,19 +234,6 @@ uwsgi --socket localhost:3031 -H virtualenvname --wsgi-file path/to/demo.py</pre
 
 </footer>
     
-
-<script type="text/javascript">
-      var disqus_shortname = 'torrge';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
 
 
 
