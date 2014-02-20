@@ -1,6 +1,7 @@
 ---
 title: Setup Python Web
 author: torrge
+comments: true
 layout: post
 permalink: /2012/07/setup-python-web/
 categories:

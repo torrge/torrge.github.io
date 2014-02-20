@@ -1,6 +1,7 @@
 ---
 title: After having xulrunner updated to 2.0.1
 author: torrge
+comments: true
 layout: post
 permalink: /2011/05/after-having-xulrunner-updated-to-2-0-1/
 categories:

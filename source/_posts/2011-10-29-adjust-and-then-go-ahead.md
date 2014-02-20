@@ -1,6 +1,7 @@
 ---
 title: Adjust and then go ahead
 author: torrge
+comments: true
 layout: post
 permalink: /2011/10/adjust-and-then-go-ahead/
 Hide SexyBookmarks:

@@ -1,6 +1,7 @@
 ---
 title: Something About Learning JavaScript
 author: torrge
+comments: true
 layout: post
 permalink: /2012/08/something-about-learning-javascript/
 categories:

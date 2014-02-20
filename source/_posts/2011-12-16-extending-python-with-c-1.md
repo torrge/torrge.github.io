@@ -1,6 +1,7 @@
 ---
 title: Extending Python with C (1)
 author: torrge
+comments: true
 layout: post
 permalink: /2011/12/extending-python-with-c-1/
 categories:

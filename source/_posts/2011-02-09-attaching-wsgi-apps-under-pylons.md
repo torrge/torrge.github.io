@@ -1,6 +1,7 @@
 ---
 title: Attaching WSGI apps under Pylons
 author: torrge
+comments: true
 layout: post
 permalink: /2011/02/attaching-wsgi-apps-under-pylons/
 categories:

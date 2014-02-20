@@ -1,6 +1,7 @@
 ---
 title: Update Your Console Program With Qt UI
 author: torrge
+comments: true
 layout: post
 permalink: /2010/11/update-your-console-program-with-qt-ui/
 categories:

@@ -1,6 +1,7 @@
 ---
 title: Bug of PackageKit
 author: torrge
+comments: true
 layout: post
 permalink: /2011/05/bug-of-packagekit/
 categories:

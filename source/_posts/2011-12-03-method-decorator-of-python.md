@@ -1,6 +1,7 @@
 ---
 title: Method Decorator of Python
 author: torrge
+comments: true
 layout: post
 permalink: /2011/12/method-decorator-of-python/
 categories:
