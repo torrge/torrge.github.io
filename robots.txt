@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://weblog.torrge.me/sitemap.xml 
+Sitemap: http://blog.torrge.info/sitemap.xml 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Torrge's Weblog]]></title>
-  <link href="http://weblog.torrge.me/atom.xml" rel="self"/>
-  <link href="http://weblog.torrge.me/"/>
-  <updated>2014-02-20T11:43:01+08:00</updated>
-  <id>http://weblog.torrge.me/</id>
+  <title><![CDATA[闲庭信步]]></title>
+  <link href="http://blog.torrge.info/atom.xml" rel="self"/>
+  <link href="http://blog.torrge.info/"/>
+  <updated>2014-02-20T14:51:38+08:00</updated>
+  <id>http://blog.torrge.info/</id>
   <author>
     <name><![CDATA[Torrge]]></name>
     
